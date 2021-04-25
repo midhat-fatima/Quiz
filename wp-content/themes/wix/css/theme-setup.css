@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.no-padding{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.no-padding-left{
+	padding-left:0px;
+}
+.no-padding-right{
+	padding-right:0px;
+}
+ul{
+	padding:0px;	
+}
+.post-box-margin{	
+	margin-top:20px;
+	margin-bottom:20px;
+	min-height: 445px;
+}
+@media (max-width:991px) {
+	.no-padding{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	
+	.no-padding-left{
+		padding-left:15px;
+	}
+	.no-padding-right{
+		padding-right:15px;
+	}
+}
+@media (max-width:767px) {
+	.wix-padding-none {
+		padding-left:0px;
+		padding-right:0px;
+	}
+}

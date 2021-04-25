@@ -1,0 +1,612 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@import url("theme-setup.css");
+@import url('http://fonts.googleapis.com/css?family=Istok+Web');
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Istok Web', sans-serif;
+	font-size: 14px;
+	color: #212121;
+	background: url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+a:hover,  a:focus {
+	text-decoration: none;
+}
+.logo {
+	border-top: 1px solid rgba(248,248,248,0.1);
+	border-bottom: 1px solid rgba(248,248,248,0.1);
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 15px;
+}
+.logo a {
+	color: #EDEDED;
+	font-size: 30px;
+}
+.logo img {
+	max-width: 117px;
+	height: auto;
+}
+.wix-menu {
+	margin-top: 8px;
+}
+.wix-menu > ul {
+	display: table;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+.wix-menu > ul li:hover > ul {
+	display: block;
+}
+.wix-menu > ul > li {
+	display: inline-block;
+	position: relative;
+}
+.wix-menu ul li a {
+	border: 1px solid rgba(75, 75, 75, 0);
+	color: rgb(237, 237, 237);
+	display: inline-block;
+	padding: 15px;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+.wix-menu ul li.current-menu-item a,  .wix-menu ul li a:hover,  .wix-menu ul li a:focus {
+	background-color: rgba(36, 36, 36, 0.44);
+	border: 1px solid rgba(75, 75, 75, 0.44);
+	text-decoration: none;
+}
+.wix-menu .sub-menu,  .wix-menu > ul li > ul {
+	display: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	z-index: 1;
+}
+.wix-menu .sub-menu li,  .wix-menu > ul li > ul li {
+	list-style: none;
+	min-width: 150px;
+	text-align: left;
+}
+.wix-menu .sub-menu .sub-menu,  .wix-menu > ul li > ul ul {
+	left: 100%;
+	position: absolute;
+	top: 0;
+}
+.wix-menu .sub-menu li a,  .wix-menu > ul li > ul li a {
+	padding: 5px 15px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.75);
+}
+.wix-menu .sub-menu li a:hover,  .wix-menu > ul li > ul li a:hover {
+	background-color: rgba(0,0,0,1);
+}
+.icon-color {
+	background-color: rgba(255,116,55,1);
+}
+.detail-section {
+	margin-top: 2px;
+}
+.wix-sidebar {
+	width: 100%;
+}
+.wix-widget {
+	padding: 15px 20px 15px 25px;
+	text-align: justify;
+	line-height: 22px;
+}
+.wix-widget li {
+	list-style: none;
+	display: table;
+}
+.wix-widget li h4 a {
+	color: #212121;
+}
+.wix-widget li img {
+	height: 100px;
+	margin: 0 13px 0 0;
+	width: 100px;
+}
+/*************** Tabination *********************/
+
+.wix-post {
+	padding: 15px 0px;
+}
+.wix-post ul {
+	width: 100%;
+}
+.wix-post > ul > li {
+	border-bottom: 1px solid rgb(197, 197, 197);
+	display: inline;
+	float: left;
+	max-height: 21px;
+	overflow: hidden;
+	width: 33.333%;
+}
+.wix-post > ul > li a {
+	color: #212121;
+	text-transform: uppercase;
+}
+.wix-post > ul > li.active,  .wix-post > ul > li:hover,  .wix-post > ul > li:focus {
+	border-bottom: 1px solid rgba(255, 116, 55, 1);
+}
+.wix-post > ul > li.active a,  .wix-post > ul > li a:hover,  .wix-post > ul > li a:focus {
+	color: #ff7437;
+	text-decoration: none;
+}
+.wix-post .tab-content {
+	float: left;
+}
+.wix-widget .wix-post .tab-content {
+    padding-bottom: 20px;
+}
+.tab-content > .tab-pane > ul > li {
+	float: left;
+	list-style: none outside none;
+	margin: 5px 0;
+	width: 100%;
+}
+.tab-content > .tab-pane > ul > li img {
+	width: 55px;
+	height: 55px;
+	float: left;
+	margin: 0px 15px 10px 0px;
+}
+.tab-content > .tab-pane > ul > li a {
+	color: #212121;
+	font-weight: bold;
+}
+.tab-content > .tab-pane > .tagcloud {
+	margin: 10px 0px 0px 0px;
+	width: 100%;
+}
+.details-mian {
+	background-color: #ffffff;
+	background-image: url(../images/wix-sidebar-bg.png);
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+.right-sidebar {
+	background-image: url(../images/right-sidebar-bg.png);
+	background-position: right 7px top;
+}
+.full-width {
+	background-image: none;
+}
+.detail-inner {
+	width: 100%;
+	margin-top: 40px;
+}
+.post-box {
+	margin: 0 auto 0 0;
+	width: 92%;
+}
+.post-box img {
+	z-index: 9999;
+	max-width: 100%;
+	height: auto;
+}
+.post-box-img {
+	height: auto;
+	position: relative;
+}
+.post-box-img:hover .post-box-hover {
+	opacity: 1;
+}
+.post-box-hover {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	height: 100%;
+	opacity: 0;
+	transition: all 0.4s ease-in-out 0s;
+}
+.post-box-hover-center {
+	display: table;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+.post-box-hover-center1 {
+	display: table-cell;
+	vertical-align: middle;
+}
+.zoom-icon {
+	background-image: url(../images/zoom-icon.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 6px 17px;
+}
+.post-box-details {
+	margin: 5px 0px;
+	line-height: 22px;
+}
+.post-box-details a {
+	color: rgb(33, 33, 33);
+	float: left;
+	font-weight: bold;
+	margin: 5px 0;
+	width: 100%;
+}
+.post-box-details a:hover,  .post-box-details a:focus {
+	text-decoration: none;
+}
+.post-box-link {
+	border-bottom: 1px solid rgb(205, 205, 205);
+	border-top: 1px solid rgb(205, 205, 205);
+	display: table;
+	padding: 9px 0 0;
+	width: 100%;
+}
+.post-box-link ul {
+	float: left;
+	width: 100%;
+}
+.post-box-link li {
+	display: inline;
+	float: left;
+	margin: 0 5px 0 0;
+}
+.post-box-link li.btn-read-more {
+	margin: 5px 0px 0px 0px;
+	float: left;
+}
+.post-box-link li.date a,  .post-box-link li.admin a,  .post-box-link li.category a,  .post-box-link li.comments a {
+	color: #212121;
+	padding: 0px 5px 0px 0px;
+}
+.post-box-link li.date a {
+	text-transform: uppercase;
+}
+.post-box-link li.admin a {
+	height: 20px;
+	overflow: hidden;
+	max-width: 150px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	float: left;
+}
+.readmore {
+	background-color: #ff7437;
+	color: #FFF;
+	font-size: 13px;
+	padding: 5px 10px;
+}
+.readmore:hover,  .readmore:focus {
+	text-decoration: none;
+	color: #FFF;
+}
+.wix-pagination {
+	margin: 20px auto;
+	text-align: center;
+	display: table;
+}
+.wix-pagination li a,
+.wix-pagination li span {
+	float: left;
+	height: 35px;
+	line-height: 1.42857;
+	margin: 3px !important;
+	padding: 8px 8px;
+	position: relative;
+	text-decoration: none;
+	width: 35px;
+	background-color: #efefef;
+	border: 1px solid #212121;
+	color: #212121;
+	border-radius: 50% !important;
+}
+.prev-all-icon {
+	padding: 8px 0 !important;
+}
+.wix-pagination li.active a,
+.wix-pagination li.active span {
+	pointer-events: none;
+}
+.wix-pagination li.active a,
+.wix-pagination li.active a:hover,
+.wix-pagination li.active a:focus,
+.wix-pagination li a:hover,
+.wix-pagination li a:focus
+.wix-pagination li.active span,
+.wix-pagination li.active span:hover,
+.wix-pagination li.active span:focus,
+.wix-pagination li span:hover,
+.wix-pagination li span {
+	border: 1px solid #ff7437;
+	background-color: #efefef;
+	color: #212121;
+}
+.page-numbers.dots {
+    background-color: rgba(0, 0, 0, 0);
+    border: medium none;
+    font-size: 20px;
+    padding: 4px;
+}
+.page-numbers.dots:active,
+.page-numbers.dots:hover,
+.page-numbers.dots:focus {
+	border: none;
+	background-color: transparent;
+	color: #212121;
+}
+.footer {
+	margin: 20px auto;
+	color: #d7d7d7;
+	text-align: center;
+}
+.footer a {
+	color: #d7d7d7;
+	text-decoration: none;
+	font-weight: bold;
+}
+/********** Blog page start *******************/
+
+.wix-inner-post {
+	margin: 40px auto 0;
+	width: 96%;
+}
+.wix-page-title {
+	padding: 0px;
+}
+.wix-page-title h1 {
+	margin: 0px 0px 10px 0px;
+	font-size: 30px;
+}
+.wix-single-post {
+	margin: 10px 0px;
+}
+.wix-single-post img.img-responsive {
+	max-width: 100%;
+}
+.wix-single-post .post-titel {
+	color: #212121;
+	font-weight: bold;
+	font-size: 18px;
+	display: table;
+	text-decoration: none;
+	margin: 15px 0px;
+}
+.wix-single-post .post-titel a {
+	color: #212121;
+}
+.wix-post-content {
+	margin: 25px 0px;
+	text-align: justify;
+}
+.wix-post-content img {
+	height: auto;
+	max-width: 100%;
+}
+.wix-single-post .tag li:last-child {
+	float: none;
+}
+.wix-single-post .tag li a {
+	color: #ff7437;
+	text-transform: capitalize;
+}
+.wix-comments {
+	width: 100%;
+	float: left;
+	padding: 0 30px 0 15px;
+}
+.comments-title,  .comment-reply-title {
+	font-size: 18px;
+	color: #212121;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10px 0px;
+}
+.wix-comments .comment-list li {
+	display: inline;
+}
+.wix-comments .comment-author {
+	width: 8%;
+	float: left;
+}
+.wix-comments .comment-content {
+	width: 92%;
+	float: left;
+}
+.wix-comments .comment-author-name {
+	float: left;
+	width: 50%;
+}
+.wix-comments .comment-author-name a {
+	color: #212121;
+	text-decoration: none;
+}
+.wix-comments .comment-author-name a:hover,  .wix-comments .comment-author-name a:focus {
+	text-decoration: none;
+}
+.wix-comments .comment-metadata a {
+	color: #595959;
+	font-size: 13px;
+}
+.wix-comments .comment-metadata a:hover,  .wix-comments .comment-metadata a:focus {
+	text-decoration: none;
+}
+.wix-comments .comment-metadata {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+.wix-comments .comment-content-main {
+	border: 1px solid #C8C8C8;
+	float: left;
+	margin: 5px 0px 0px 0px;
+	padding: 10px 10px 20px;
+	width: 100%;
+}
+.wix-comments .reply .comment-reply-link {
+	background-color: #383838;
+	color: #FFFFFF;
+	float: right;
+	margin: 10px 0;
+	padding: 3px 10px;
+	text-transform: uppercase;
+}
+.wix-comments .comment-respond {
+	float: left;
+	width: 100%;
+	margin: 20px 0px;
+}
+.wix-comments .comment-field {
+	float: left;
+	margin: 10px 0;
+	width: 47%;
+}
+.wix-comments .comment-field-2 {
+	float: right;
+}
+.wix-comments input[type='text'] {
+	border: 1px solid #C8C8C8;
+	padding: 5px 10px;
+	width: 100%;
+}
+.wix-comments input[type='email'] {
+	border: 1px solid #C8C8C8;
+	padding: 5px 10px;
+	width: 100%;
+}
+.wix-comments input[type='url'] {
+	border: 1px solid #C8C8C8;
+	padding: 5px 10px;
+	width: 100%;
+}
+.wix-comments textarea {
+	border: 1px solid #C8C8C8;
+	padding: 5px 10px;
+	width: 100%;
+	height: 150px;
+}
+.wix-comments .comment-box {
+	width: 100%;
+	float: left;
+}
+.wix-comments input[type='submit'] {
+	background-color: #FF7437;
+	border: 1px solid #C8C8C8;
+	color: #FFFFFF;
+	padding: 5px 10px;
+}
+.wix-comments code {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	color: #4B4B4B;
+	white-space: normal;
+}
+.wix-comments .form-allowed-tags {
+	float: left;
+	width: 100%;
+	margin: 10px 0px;
+}
+.wix-comments .children {
+	padding-left: 30px;
+}
+.wix-social {
+	float: left;
+	margin: 20px 0 20px;
+	text-align: center;
+	width: 100%;
+}
+.wix-widget .wix-social {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    float: left;
+    margin: 20px 0;
+    padding-bottom: 21px;
+    text-align: center;
+    width: 100%;
+}
+.social {
+	background-image: url(../images/social.png);
+	background-repeat: no-repeat;
+	display: inline;
+	padding: 7px 20px;
+}
+.facebook-icon {
+	background-position: -13px;
+}
+.twitter-icon {
+	background-position: -54px;
+}
+.linkedin-icon {
+	background-position: -138px;
+}
+.googleplus-icon {
+	background-position: -96px;
+}
+.wix-post-content table {
+	width: 100%;
+}
+.wix-post-content td {
+	border: 1px solid;
+	padding: 5px;
+	text-align: center;
+}
+.wix-post-content embed {
+	max-width: 100%;
+}
+.wix-post-content iframe {
+	max-width: 100%;
+}
+.default-pagination-previous {
+	float: right;
+	padding-bottom: 10px;
+}
+.wp-caption {
+	background: none repeat scroll 0 0 rgb(204, 204, 204);
+	margin-bottom: 14px;
+	max-width: 100%;
+	padding: 5px;
+	text-align: center;
+}
+.wp-caption a {
+	border-bottom: medium none;
+}
+.wp-caption img {
+	height: auto;
+	margin: 0;
+	max-width: 100%;
+}
+.wp-caption.alignleft {
+	margin-right: 20px;
+}
+.wp-caption.alignright {
+	margin-left: 20px;
+}
+.wp-caption.alignnone {
+	overflow: hidden;
+	width: 100% !important;
+}
+.wp-caption.alignnone img {
+	margin: 0 auto;
+	max-width: 100% !important;
+}
+.wp-caption-text {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+	padding: 8px 0;
+}
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+.wix-widget-author {
+	width:100%;
+}

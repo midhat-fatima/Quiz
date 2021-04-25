@@ -1,0 +1,260 @@
+/*
+Theme Name: Wix
+Theme URI: https://fasterthemes.com/wordpress-themes/wix
+Description: Wix is a Twitter bootstrap based responsive WordPress theme with Masonry layout which can be used for personal or corporate websites. Developed using Bootstrap that makes it mobile and tablets friendly. Wix incorporates latest web standards such as HTML5 and CSS3 and is SEO friendly.
+It has Theme Options to manage logo, favicon and footer text.
+Author: FasterThemes
+Author URI: https://fasterthemes.com/
+Text Domain: wix
+Tags: left-sidebar, right-sidebar, full-width-template, theme-options , custom-background, custom-header, custom-menu, featured-images, post-formats, sticky-post
+Version: 2.1
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+This theme, like WordPress, is licensed under the FasterThemes.
+*/
+
+.wp-caption {
+	max-width: 100%;
+}
+.wp-caption-text {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 1.5;
+	margin: 9px 0;
+	padding-right: 10px;
+}
+.sticky .entry-date {
+	display: none;
+}
+.gallery-caption {
+	background-color: rgba(0, 0, 0, 0.7);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	max-height: 50%;
+	opacity: 0;
+	padding: 6px 8px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	width: 100%;
+}
+.bypostauthor > article .fn:before {
+	margin: 0 2px 0 -2px;
+	position: relative;
+	top: -1px;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* L e f t - s i d e b a r  */
+.wix-sidebar table {
+	width: 100%;
+}
+.wix-sidebar a {
+	color: #000;
+}
+.wix-sidebar .search-form input[type="search"] {
+	width: 100%;
+}
+.wix-sidebar .search-form label {
+	width: 65%;
+}
+.wix-sidebar select {
+	width: 100%;
+}
+.wix-sidebar img {
+	max-width: 100%;
+	height: auto;
+}
+.wix-sidebar .menu {
+	margin: 0 !important;
+	text-align: left;
+}
+.wix-sidebar .menu li a {
+	padding: 8px 0px !important;
+}
+.wix-sidebar .search-submit {
+	background: none repeat scroll 0 0 #2685B6;
+	border: medium none;
+	color: #E7E5E5;
+	font-size: 15px;
+	float:right;
+	margin-top: 0px;
+	padding: 5px 30px !important;
+}
+.wix-sidebar .search-field {
+	border: 1px solid #999;
+	padding: 4px;
+}
+.wix-sidebar select {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #D3D3D3;
+	border-radius: 5px;
+	color: #5D5D5D;
+	font-weight: normal;
+	outline: medium none;
+	padding: 7px 10px !important;
+	width: 100%;
+	margin-top: 10px;
+}
+/* search label display none */
+.wix-sidebar .screen-reader-text {
+	display: none;
+}
+.wix-sidebar table {
+	width: 100%;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+/**
+ wix gallery
+ * -----------------------------------------------------------------------------
+ */
+
+.gallery {
+	margin-bottom: 20px;
+}
+
+.gallery-item {
+	float: left;
+	margin: 0 4px 4px 0;
+	overflow: hidden;
+	position: relative;
+}
+
+.gallery-columns-1 .gallery-item {
+	max-width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 48%;
+	max-width: -webkit-calc(50% - 4px);
+	max-width:         calc(50% - 4px);
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 32%;
+	max-width: -webkit-calc(33.3% - 4px);
+	max-width:         calc(33.3% - 4px);
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 23%;
+	max-width: -webkit-calc(25% - 4px);
+	max-width:         calc(25% - 4px);
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 19%;
+	max-width: -webkit-calc(20% - 4px);
+	max-width:         calc(20% - 4px);
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 15%;
+	max-width: -webkit-calc(16.7% - 4px);
+	max-width:         calc(16.7% - 4px);
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 13%;
+	max-width: -webkit-calc(14.28% - 4px);
+	max-width:         calc(14.28% - 4px);
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 11%;
+	max-width: -webkit-calc(12.5% - 4px);
+	max-width:         calc(12.5% - 4px);
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 9%;
+	max-width: -webkit-calc(11.1% - 4px);
+	max-width:         calc(11.1% - 4px);
+}
+
+.gallery-columns-1 .gallery-item:nth-of-type(1n),
+.gallery-columns-2 .gallery-item:nth-of-type(2n),
+.gallery-columns-3 .gallery-item:nth-of-type(3n),
+.gallery-columns-4 .gallery-item:nth-of-type(4n),
+.gallery-columns-5 .gallery-item:nth-of-type(5n),
+.gallery-columns-6 .gallery-item:nth-of-type(6n),
+.gallery-columns-7 .gallery-item:nth-of-type(7n),
+.gallery-columns-8 .gallery-item:nth-of-type(8n),
+.gallery-columns-9 .gallery-item:nth-of-type(9n) {
+	margin-right: 0;
+}
+
+.gallery-columns-1.gallery-size-medium figure.gallery-item:nth-of-type(1n+1),
+.gallery-columns-1.gallery-size-thumbnail figure.gallery-item:nth-of-type(1n+1),
+.gallery-columns-2.gallery-size-thumbnail figure.gallery-item:nth-of-type(2n+1),
+.gallery-columns-3.gallery-size-thumbnail figure.gallery-item:nth-of-type(3n+1) {
+	clear: left;
+}
+
+.gallery-caption {
+	background-color: rgba(0, 0, 0, 0.7);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	max-height: 50%;
+	opacity: 0;
+	padding: 6px 8px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	width: 100%;
+}
+
+.gallery-caption:before {
+	content: "";
+	height: 100%;
+	min-height: 49px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.gallery-item:hover .gallery-caption {
+	opacity: 1;
+}
+
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}
+.wix-sidebar .sub-menu,
+.wix-sidebar .children{
+	padding:0px 0px 0px 20px;
+}
+.pagination ul li a:hover, a.select, .pagination .active a {
+	border:1px solid #000000;
+}

@@ -1,0 +1,312 @@
+/* Options Framework Admin Styles */
+
+.updated {
+	max-width:764px;
+	margin-bottom:0px !important;
+}
+#fasterthemes_framework {
+	position:relative;
+	z-index: 0;
+	max-width:780px;
+	background:#fff;
+}
+#fasterthemes_framework h3 {
+	cursor: default;
+}
+#fasterthemes_framework p {
+	margin-bottom:0;
+	padding-bottom:10px;
+	line-height: 1.4em;
+}
+#fasterthemes_framework .section {
+	padding:10px 10px 0;
+}
+#fasterthemes_framework .group {
+	padding-bottom:40px;
+}
+#fasterthemes_framework .section .heading {
+	padding:10px 0px;
+	margin:0 0 15px;
+	border-bottom: 1px solid #dfdfdf;
+}
+#fasterthemes_framework .section .controls {
+	float: left;
+	min-width:350px;
+	width: 54%;
+	padding-right:2%;
+}
+#fasterthemes_framework .section .explain {
+	max-width:38%;
+	float: left;
+	font-size: 12px;
+	line-height:16px;
+	color: #777;
+}
+#fasterthemes_framework .section-checkbox .controls {
+	width: 98%;
+}
+#fasterthemes_framework .section-checkbox .explain {
+	max-width:94%;
+}
+#fasterthemes_framework .of-input {
+	width:100%;
+}
+#fasterthemes_framework .controls select, #fasterthemes_framework .controls textarea {
+	margin-bottom:10px;
+	width:100%;
+}
+#fasterthemes_framework .section-radio label, #fasterthemes_framework .section-multicheck label {
+	float:left;
+	max-width:90%;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+#fasterthemes_framework input.checkbox, #fasterthemes_framework input.of-radio {
+	width: 30px;
+	margin-top:2px;
+	float:left;
+	clear:both;
+}
+#fasterthemes_framework .section-typography .controls {
+	float:none;
+	width:auto;
+}
+#fasterthemes_framework .section-typography .explain {
+	float:none;
+	width:auto;
+}
+#fasterthemes_framework .controls .of-typography-size {
+	width:80px;
+	float:left
+}
+#fasterthemes_framework .controls .of-typography-unit {
+	width:50px;
+	margin-left:5px;
+	float:left
+}
+#fasterthemes_framework .controls .of-typography-face {
+	width:100px;
+	margin-left:5px;
+	float:left
+}
+#fasterthemes_framework .controls .of-typography-style {
+	width:80px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left
+}
+#fasterthemes_framework .of-background-properties {
+	clear:both;
+	margin-top: 18px;	
+}
+#fasterthemes_framework .controls .of-background-repeat {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#fasterthemes_framework .controls .of-background-position {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#fasterthemes_framework .controls .of-background-attachment {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#fasterthemes_framework .section-background .wp-picker-container {
+	margin-bottom:10px;
+}
+#fasterthemes_framework .controls .of-radio-img-img {
+	border:3px solid #f9f9f9;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+#fasterthemes_framework .controls .of-radio-img-selected {
+	border:3px solid #ccc
+}
+#fasterthemes_framework .controls .of-radio-img-img:hover {
+	opacity:.8;
+}
+#fasterthemes_framework .controls .of-border-width {
+	width:80px;
+	float:left
+}
+#fasterthemes_framework .controls .of-border-style {
+	width:120px;
+	float:left
+}
+#fasterthemes_framework .hide {
+	display:none;
+}
+#fasterthemes_framework .of-option-image {
+	max-width:340px;
+	margin:3px 0 18px 0;
+}
+#fasterthemes_framework .mini .controls select, #fasterthemes_framework .section .mini .controls {
+	width: 140px;
+}
+#fasterthemes_framework .mini .controls input, #fasterthemes_framework .mini .controls {
+	min-width:0px;
+	/*width: 140px;*/
+}
+#fasterthemes_framework .mini .explain {
+	max-width:74%;
+}
+
+/* Editor */
+
+#fasterthemes_framework .section-editor .explain {
+	max-width: 98%;
+	float:none;
+	margin-bottom:5px;
+}
+
+/* Image Uploader */
+
+#fasterthemes_framework .controls input.upload {
+	width:80%;
+}
+#fasterthemes_framework .controls input.upload_button {
+	float:right;
+	border-color:#BBBBBB;
+	cursor:pointer;
+}
+#fasterthemes_framework .controls input.upload_button:hover {
+	border-color:#666666;
+	color:#000;
+}
+#fasterthemes_framework .screenshot {
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:344px;
+	margin-top:3px;
+}
+#fasterthemes_framework .screenshot img {
+	background:#FAFAFA;
+	border-color:#ccc #eee #eee #ccc;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	max-width:334px;
+	padding:4px;
+	margin-bottom:10px;
+}
+#fasterthemes_framework .screenshot .remove-image {
+	background:url("../images/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:4px;
+	display:block;
+	float:left;
+	height:16px;
+	padding:0;
+	position:absolute;
+	left:-4px;
+	text-indent:-9999px;
+	width:16px;
+}
+#fasterthemes_framework .screenshot .no_image .file_link {
+	margin-left: 20px;
+}
+#fasterthemes_framework .screenshot .no_image .remove-button {
+	bottom: 0px;
+}
+#fasterthemes_framework .reset-button {
+	float:left;
+	cursor:pointer;
+}
+
+/* Bottom Section */
+
+#fasterthemes_framework-submit {
+	padding: 7px 10px;
+	border-top: 1px solid #ECECEC;
+	background-color: #F1F1F1;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);
+}
+#fasterthemes_framework-submit span{
+	vertical-align:sub;
+        font-size: 24px;
+}
+#fasterthemes_framework-submit span{
+	vertical-align:sub;
+}
+#fasterthemes_framework-submit span a{
+	text-decoration:none;	
+}
+#fasterthemes_framework-submit .fb{
+	margin-left:20%;
+}
+
+#fasterthemes_framework-submit span a{
+	text-decoration:none;	
+} 
+#fasterthemes_framework .button-primary {
+	float:right;
+}
+#fasterthemes_framework .section:after {
+	content: "";
+	display: table;
+}
+#fasterthemes_framework .section:after {
+	clear: both;
+}
+#fasterthemes_framework img
+{
+ margin-left:20px;
+ vertical-align:middle;
+}
+#mc_embed_signup{    
+	background-color: rgb(255, 255, 255);
+    clear: left;
+    font: 1em "Open Sans",sans-serif;
+    padding-right: 13px;
+    width: 67%;
+}
+/* MailChimp Form Embed Code - Classic - 08/17/2011 */
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.1em;}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding: 0 22px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}
+
+#mc_embed_signup .mc-field-group {clear:left; position:relative; width:96%; padding-bottom:3%; min-height:50px;}
+#mc_embed_signup .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
+* html #mc_embed_signup .size1of2 {margin-right:2%; /* Fix for IE6 double margins. */}
+#mc_embed_signup .mc-field-group label {display:block; margin-bottom:3px;}
+#mc_embed_signup .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:2%;}
+#mc_embed_signup .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
+
+#mc_embed_signup .datefield, #mc_embed_signup .phonefield-us{padding:5px 0;}
+#mc_embed_signup .datefield input, #mc_embed_signup .phonefield-us input{display:inline; width:60px; margin:0 2px; letter-spacing:1px; text-align:center; padding:5px 0 2px 0;}
+#mc_embed_signup .phonefield-us .phonearea input, #mc_embed_signup .phonefield-us .phonedetail1 input{width:40px;}
+#mc_embed_signup .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input{width:30px;}
+#mc_embed_signup .datefield label, #mc_embed_signup .phonefield-us label{display:none;}
+
+#mc_embed_signup .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
+#mc_embed_signup .asterisk {color:#c60; font-size:200%;}
+#mc_embed_signup .mc-field-group .asterisk {position:absolute; top:25px; right:10px;}        
+#mc_embed_signup .clear {clear:both;}
+
+#mc_embed_signup .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none;}
+#mc_embed_signup .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
+#mc_embed_signup .mc-field-group.input-group label {display:inline;}
+#mc_embed_signup .mc-field-group.input-group input {display:inline; width:auto; border:none;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+#mc-embedded-subscribe {clear:both; width:auto; display:block; margin:1em 0 1em 5%;}
+#mc_embed_signup #num-subscribers {font-size:1.1em;}
+#mc_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}

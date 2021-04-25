@@ -1,0 +1,219 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Wix\n"
+"POT-Creation-Date: 2018-04-25 13:11+0530\n"
+"PO-Revision-Date: 2018-04-25 13:10+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:14
+msgid "Epic 404 - Article Not Found"
+msgstr ""
+
+#: 404.php:15
+msgid "This is embarassing. We can't find what you were looking for."
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"Whatever you were looking for was not found, but maybe try looking again or "
+"search using the form below."
+msgstr ""
+
+#: comments.php:15
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: footer.php:9
+msgid "Powered by "
+msgstr ""
+
+#: footer.php:9
+msgid "Wix WordPress Theme"
+msgstr ""
+
+#: functions.php:35
+msgid "Main menu"
+msgstr ""
+
+#: functions.php:57
+msgctxt "Istok Web font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:101 functions.php:103
+msgid ", "
+msgstr ""
+
+#: functions.php:113
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: functions.php:181
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:221
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:223
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:240
+msgid "Post author "
+msgstr ""
+
+#: functions.php:248
+msgid "Reply"
+msgstr ""
+
+#: functions/wix-author-information.php:7
+msgid "A widget that displays the title, content, image and socia links. "
+msgstr ""
+
+#: functions/wix-author-information.php:9
+msgid "wix Author information"
+msgstr ""
+
+#: functions/wix-author-information.php:47
+msgid "Title:"
+msgstr ""
+
+#: functions/wix-author-information.php:51
+msgid "Content:"
+msgstr ""
+
+#: functions/wix-author-information.php:55
+msgid "Image:"
+msgstr ""
+
+#: functions/wix-author-information.php:61
+msgid "Facebook url:"
+msgstr ""
+
+#: functions/wix-author-information.php:65
+msgid "Twitter url:"
+msgstr ""
+
+#: functions/wix-author-information.php:69
+msgid "Linkedin url:"
+msgstr ""
+
+#: functions/wix-author-information.php:73
+msgid "Google+ url:"
+msgstr ""
+
+#: functions/wix-post-tag-widget.php:8
+msgid "A widget for Posts, Comments and Tags."
+msgstr ""
+
+#: functions/wix-post-tag-widget.php:10 functions/wix-post-tag-widget.php:82
+msgid "Posts Comments and Tags"
+msgstr ""
+
+#: functions/wix-post-tag-widget.php:82
+msgid "post_comment_tag"
+msgstr ""
+
+#: search.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:28
+msgid "Pages:"
+msgstr ""
+
+#: theme-option/fasterthemes.php:25 theme-option/fasterthemes.php:44
+msgid "FasterThemes Options"
+msgstr ""
+
+#: theme-option/fasterthemes.php:26
+msgid "Theme Options"
+msgstr ""
+
+#: theme-option/fasterthemes.php:46
+msgid "Options saved"
+msgstr ""
+
+#: theme-option/fasterthemes.php:50 theme-option/fasterthemes.php:61
+msgid "Basic Settings"
+msgstr ""
+
+#: theme-option/fasterthemes.php:51 theme-option/fasterthemes.php:91
+msgid "Footer Settings"
+msgstr ""
+
+#: theme-option/fasterthemes.php:63
+msgid "Site Logo"
+msgstr ""
+
+#: theme-option/fasterthemes.php:72
+msgid ""
+"Size of logo should be exactly 117x43px for best results. Leave blank to use "
+"text heading."
+msgstr ""
+
+#: theme-option/fasterthemes.php:76
+msgid "Favicon"
+msgstr ""
+
+#: theme-option/fasterthemes.php:85
+msgid "Size of favicon should be exactly 32x32px for best results."
+msgstr ""
+
+#: theme-option/fasterthemes.php:93
+msgid "Copyright Text"
+msgstr ""
+
+#: theme-option/fasterthemes.php:98
+msgid ""
+"Some text regarding copyright of your site, you would like to display in the "
+"footer."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Wix"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://fasterthemes.com/wordpress-themes/wix"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Wix is a Twitter bootstrap based responsive WordPress theme with Masonry "
+"layout which can be used for personal or corporate websites. Developed using "
+"Bootstrap that makes it mobile and tablets friendly. Wix incorporates latest "
+"web standards such as HTML5 and CSS3 and is SEO friendly."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "FasterThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://fasterthemes.com/"
+msgstr ""
